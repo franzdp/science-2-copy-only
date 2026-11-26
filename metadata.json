@@ -1,0 +1,8 @@
+{
+  "name": "SCIENTISTS of Bagacay ES",
+  "description": "Interactive Grade 3–6 Science learning app with curriculum-aligned lessons, hands-on activities, simulations, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

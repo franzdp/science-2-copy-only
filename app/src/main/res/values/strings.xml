@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SCIENTISTS of Bagacay ES</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_challenge">Challenge</string>
+    <string name="nav_progress">Progress</string>
+    <string name="read_aloud">Read question aloud</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="next_question">Continue</string>
+    <string name="finish_lesson">See Results</string>
+</resources>

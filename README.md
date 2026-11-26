@@ -1,11 +1,15 @@
-<div align="center">
+# SCIENTISTS of Bagacay ES
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Interactive Grade 3–6 Science learning web application built with React, TypeScript, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- **Learn Hub**: Grade 3–6 curriculum (52 lessons, 1,038 activities across Terms 1–3) with term filtering, keyword search, mastery stars, and best-score progress bars.
+- **10 Interactive Activity Types**: Multiple Choice, True/False, Multi-Select (Picture & Object modes), Matching Pairs, Sort into Buckets, Order Steps, Interactive Scene Hotspots, Virtual Metric Ruler Slider, Force & Gravity Simulations, and Fill-in-the-Blank.
+- **Science Arcade & Challenges**: Daily Science Sprint, Flash Quiz Lab, Sort/Match/Order Lab, Visual & Lab Explorer, and Review Missed Items.
+- **Multi-Learner Profiles & Progress**: Create, edit, switch, and delete learner profiles stored in `localStorage`, track XP, daily streaks, accuracy, grade mastery bars, science badges, and Web Speech API Read Aloud support.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Development
+```bash
+npm install
+npm run dev
+```

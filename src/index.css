@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('/fonts/fredoka.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/plus_jakarta_sans.ttf') format('truetype');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-display: 'Fredoka', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --color-sky-primary: #0284C7;
+  --color-sky-bright: #0EA5E9;
+  --color-sky-container: #E0F2FE;
+  --color-on-sky-container: #0C4A6E;
+  --color-leaf-secondary: #059669;
+  --color-leaf-bright: #10B981;
+  --color-leaf-container: #D1FAE5;
+  --color-on-leaf-container: #064E3B;
+  --color-sun-tertiary: #D97706;
+  --color-sun-gold: #F59E0B;
+  --color-sun-container: #FEF3C7;
+  --color-on-sun-container: #78350F;
+  --color-violet-accent: #6366F1;
+  --color-violet-container: #E0E7FF;
+  --color-coral-error: #E11D48;
+  --color-coral-container: #FFE4E6;
+  --color-on-coral-container: #881337;
+  --color-cloud-bg: #F4F8FB;
+  --color-pure-surface: #FFFFFF;
+  --color-soft-variant: #EAF2F8;
+  --color-ink-dark: #0F172A;
+  --color-slate-muted: #475569;
+  --color-outline-soft: #CBD5E1;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #F4F8FB;
+    color: #0F172A;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Fredoka', system-ui, sans-serif;
+  }
+}
